@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.QuestionBox{
+  width: 100%;
+  min-height: 200px;
+  overflow: auto;
+  margin: 5px auto;
+  border: 1px solid red;
+}
+
+.AddQuestion{
+  width: 100%;
+  padding: 10px;
+  margin-top: 55px;
+}
+
+.inputAddQuestion{
+  width: 80%;
+  height: 30px;
+  border: 2px solid rebeccapurple;
+  margin: 5px;
+}
+
+.inputButton{
+  width: 80px;
+  height: 30px;
+  margin:auto 10px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  background: transparent;
+  border-color: green;
+  border-style: solid;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
